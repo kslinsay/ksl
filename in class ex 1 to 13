@@ -1,0 +1,161 @@
+# Exercise 1: Reuqest user input and print a greeting
+print("exercise 1:")
+first_name = "sonali"  
+last_name = "kathi"    
+
+print(f"Hello, {first_name}! Welcome to the program.")
+print("\n\n")
+
+# Exercise 2: Variables and Data Types
+print("exercise 2:")
+
+d1 = "Milk"
+d2 = "Water"
+
+print(f"Original values: Drink 1 = {d1}, Drink 2 = {d2}")
+drink1, drink2 = d2, d1
+
+print(f"Swapped values: Drink 1 = {drink1}, Drink 2 = {drink2}")
+print("\n\n")
+
+# Exercise 3: Print the full name by concatenating first and last name with a space in between
+print("Exercise 3:")
+print(first_name + " " + last_name)
+
+print("\n\n")
+
+# Exercise 4: Simple Arithmetic
+print("exercise 4:")
+num1 = 10
+num2 = 55
+print(f"addition: {num1} + {num2} = {num1 + num2}")
+print("\n\n")
+
+# Exercise 4: Simple Arithmetic
+num1 = 10
+num2 = 5
+
+# Perform arithmetic operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2 
+
+# Print the results
+print("Exercise 4:")
+print(f"Addition: {num1} + {num2} = {addition}")
+print(f"Subtraction: {num1} - {num2} = {subtraction}")
+print(f"Multiplication: {num1} * {num2} = {multiplication}")
+print(f"Division: {num1} / {num2} = {division}")
+
+print("\n\n")
+
+
+#exercise 5:   #exercise 6:
+print("exercise 5:")
+numList = [1,2,3,4,5,6,7,8]
+
+
+print(f"First element: {numList[0]}")
+print(f"First element: {numList[-1]}")
+print("\n\n")
+
+
+print("exercise 6:")
+for num in numList:
+    print(num)
+print("\n\n")
+
+
+print("exercise 7:")
+num = 12
+
+# Check if the number is greater than or equal to 10
+if num >= 10:
+    print(f"The number {num} is greater than or equal to 10.")
+else:
+    print(f"The number {num} is less than 10.")
+print("\n\n")
+
+
+#exercise 8
+print("exercise 8:")
+
+def greet(name):
+    print(f"Hello, {name}! Welcome!")
+
+greet("sonali")  
+print("\n\n")
+
+#exercise 9
+print("exercise 9:")
+
+my_dict = {
+    "name": "john",
+    "age": 25,
+    "city": "Paris"
+}
+print("The value of the key 'age' is:", my_dict["age"])
+print("\n\n")
+
+#exercise 10
+print("exercise 10:")
+
+counter = 1
+
+# Start the while loop
+while counter <= 5:
+    print(counter)
+    counter += 1 
+print("\n\n")
+
+
+
+#exercise 11
+print("exercise 11:")
+
+person = {
+    "name": "sonali",
+    "age": 23,
+    "city": "Dallas"
+}
+print("The value of the key 'name ' is:", person["name"])
+print("\n\n")
+
+
+
+#exercise 12
+print("exercise 12:")
+
+
+def calculate(num1, num2, operation="add"):
+    if operation == "substact":
+        return num1 + num2
+    elif operation == "multiply":
+        return num1 * num2
+    elif operation == "divide":
+        return num1 / num2
+    else:
+        return num1 + num2
+
+print("Addition :", calculate(10, 5))              
+print("Subtraction:", calculate(10, 5, "subtract"))         
+print("Multiplication:", calculate(10, 5, "multiply"))     
+print("Division:", calculate(10, 5, "divide"))             
+print("Invalid operation:", calculate(10, 5, "modulus"))
+print("\n\n")
+
+#exercise 13
+print("excerice 13:")
+
+yearList = [1990, 1991, 1992, 1993, 1994, 1995]
+
+ageList = []
+currentYear = 2024
+
+for year in yearList:
+    age = currentYear - year
+    ageList.append(age)
+
+    print(f"List of ages: {age}")
+print("\n\n")
